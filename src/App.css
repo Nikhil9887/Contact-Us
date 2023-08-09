@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+body {
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+}
+
+nav{
+  display : flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  height: 72px;
+  margin: 25px auto;
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.heading-component{
+  max-width: 915px;
+  margin: 0 auto;
+}
+
+h1{
+  height: 72px;
+  font-size: 48px;
+  font-weight: 1200;
+  margin-bottom: 15px;
+}
+
+.heading-component p{
+  font-size: 15px;
+  margin : 0 0 22px 0;
+}
+
+.textPlusImage{
+  display: flex;
+  max-width: 1160px;
+  height: 500px;
+  /* margin: 0 280px 0 280px; */
+  margin: auto;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.black-buttons{
+  justify-content: space-between;
+}
+
+.black-btns{
+  background: black;
+  color: white;
+  font-size: 16px;
+  padding: 5px 5px;
+  text-align: center;
+  margin: 5px 20px 5px 0;
+  width: 200px;
+  height: 40px;
+  justify-content: space-between;
+}
+
+.submit-btn{
+    background: black;
+    color: white;
+    font-size: 16px;
+    padding: 5px 5px;
+    text-align: center;
+    margin: 15px 0 15px 220px;
+    width: 200px;
+    height: 40px;
+}
+
+.special-btn{
+  background: transparent;
+  /* border: none; */
+  width: 420px;
+  font-size: 16px;
+  padding: 5px 5px;
+  text-align: center;
+  margin: 10px 10px 10px 0;
+}
+
+#fname{
+  width: 420px;
+  height: 27px;
+  margin: 10px 0;
+}
+
+#lname{
+  width: 420px;
+  height: 27px;
+  margin: 10px 0;
+}
+
+#textarea{
+  width: 420px;
+  height: 80px;
+  margin: 10px 0;
+}
